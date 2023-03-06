@@ -7,7 +7,7 @@ git branch:'main', url : 'https://github.com/samanvitha31/PES2UG20CS301_Jenkins.
 }
 stage('Build'){
 steps{
-sh 'make -C main' }
+sh 'ma -C main' }
 }
 stage('Test'){
 steps{
